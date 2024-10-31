@@ -1,0 +1,211 @@
+html{
+    font-size: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #02A28F;
+}
+
+nav{
+    width: 90vw;
+    max-width: 1440px;
+    margin: auto;
+    padding: 1rem 9.5rem;
+}
+
+.logo{
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+main{
+    width: 90vw;
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+    padding: 3rem 9.5rem;
+}
+
+.banner img{
+    width: 100%;
+}
+
+h2{
+    color: white;
+    font-size: 1.25rem;
+}
+
+.section-header{
+    border-radius: .6rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+
+.side-card{
+    display: flex;
+    box-shadow: 0px 10px 10px 0px #0000001a;
+    border-radius: .6rem;
+    padding: .8rem .7rem;
+    margin-top: 1.2rem;
+}
+
+h3{
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.gray{
+    color: #616161;
+}
+
+.date{
+    font-weight: 500;
+    font-size: .7rem;
+    margin-top: .5rem;
+}
+
+.content-sidecard{
+    padding: .8rem .7rem;
+}
+
+.white{
+    color: white;
+}
+
+.link{
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.posts-recentes{
+    padding-top: 1.5rem;
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 1.2rem;
+}
+
+.card{
+    box-shadow: 0px 10px 10px 0px #0000001a;
+    border-radius: .6rem;
+}
+
+.topic{
+    color: #02A28F;
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+h4{
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-top: .5rem;
+}
+
+.cards-content{
+    padding: 1rem;
+    width: 100%;
+}
+
+.cards-content > .autor{
+    font-size: .9rem;
+    margin-top: .5rem;
+}
+
+.cards-content > .date{
+    font-size: .9rem;
+}
+
+.information{
+    font-weight: 400;
+    font-size: .9rem;
+    margin-top: .5rem;
+}
+
+.categorias{
+    padding-top: 1.5rem;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 0;
+}
+
+.item span{
+    color: #616161;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+footer{
+    background-color: #02A28F;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:1440px) {
+    main{
+        grid-template-columns: 1fr;
+    }
+
+    .card img{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    main{
+        padding: 1.5rem 0;
+    }
+
+    .logo{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    main{
+        padding: 1rem 0;
+    }
+
+    nav{
+        padding: 1rem 0;
+    }
+
+    .logo{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .cards-container{
+        grid-template-columns: 1fr;
+    }
+
+    .section-header{
+        justify-content: center;
+        height: 2.5rem;
+    }
+
+    .link{
+        padding-left: 11rem;
+    }
+}
