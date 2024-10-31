@@ -204,4 +204,7 @@ footer{
         justify-content: center;
         height: 2.5rem;
     }
+
+    .link{
+        padding: 1rem;
 }
